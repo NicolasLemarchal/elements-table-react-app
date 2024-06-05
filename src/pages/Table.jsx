@@ -6,7 +6,7 @@ import elementsData from '../data/elements.json';
 
 import '../style/Table.css';
 
-const Table = () => {
+function Table() {
   const filteredData = elementsData.filter(obj => obj.hasOwnProperty('elements'));
   const elements = filteredData.map(obj => obj.elements).flat();
 
