@@ -1,0 +1,32 @@
+.table {
+  margin-bottom: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 10px;
+  margin: 0px 50px 10px 50px;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100% / 18) - 10px;
+  aspect-ratio: 1 / 1;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.separator {
+  height: 15px;
+}
+
+.hidden {
+  visibility: hidden;
+}
