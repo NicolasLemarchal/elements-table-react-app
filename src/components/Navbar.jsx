@@ -21,7 +21,7 @@ const Navbar = () => {
         </a>
         <ul className="navbar-links">
           <li><a href="/">Accueil</a></li>
-          <li><a href="/app">À Propos</a></li>
+          <li><a href="/about">À Propos</a></li>
         </ul>
       </nav>
       <button className="arrow-up" onClick={scrollToTop}>

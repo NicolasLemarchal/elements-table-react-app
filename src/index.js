@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Navbar from './components/Navbar.jsx';
-import App from './pages/App.jsx';
 import Table from './pages/Table.jsx';
+import ElementPage from './pages/Element.jsx';
+import About from './pages/About.jsx';
 import ErrorPage from './pages/Error.jsx';
 
 import './style/index.css';
+
 
 const router = createBrowserRouter([
   {
@@ -16,8 +18,13 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/app",
-    element: <App />,
+    path: "/about",
+    element: <About />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/:symbol",
+    element: <ElementPage />,
     errorElement: <ErrorPage />
   }
 ]);
