@@ -7,9 +7,9 @@ function ElementGridComponent({ elements }) {
   return (
     <div className="grid-container">
       {elements.map((element, index) => (
-        <Link key={index} to={`/${element.symbol}`} className={`grid-item ${element.symbol === "" ? 'hidden' : ''}`}>
+        <Link key={index} to={`/${element.number}`} className={`grid-item ${element.number === "" ? 'hidden' : ''}`}>
           <div>{element.symbol}</div>
-          <div>{element.atomicNumber}</div>
+          <div>{element.number}</div>
         </Link>
       ))}
     </div>
