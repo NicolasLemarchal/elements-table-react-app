@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 import '../style/Navbar.css';
 
@@ -6,12 +6,26 @@ import logo from '../images/react.png';
 import arrowIcon from '../images/arrow-up.svg';
 
 const Navbar = () => {
+  const [showArrow, setShowArrow] = useState(false);
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowArrow(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <>
@@ -24,9 +38,11 @@ const Navbar = () => {
           <li><a href="/about">À Propos</a></li>
         </ul>
       </nav>
-      <button className="arrow-up" onClick={scrollToTop}>
-        <img src={arrowIcon} alt="arrow-up" />
-      </button>
+      {showArrow && (
+        <button className="arrow-up" onClick={scrollToTop}>
+          <img src={arrowIcon} alt="arrow-up" />
+        </button>
+      )}
     </>
   );
 };
