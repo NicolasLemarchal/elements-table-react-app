@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/elements-table-react-app/static/css/main.9dd486c5.css",
-    "main.js": "/elements-table-react-app/static/js/main.e7c9d7aa.js",
+    "main.css": "/elements-table-react-app/static/css/main.5cdc0b66.css",
+    "main.js": "/elements-table-react-app/static/js/main.87b33d56.js",
     "static/media/electron.png": "/elements-table-react-app/static/media/electron.f03b0e1296f79309f35e.png",
     "index.html": "/elements-table-react-app/index.html",
     "static/media/arrow-up.svg": "/elements-table-react-app/static/media/arrow-up.b952209bbdb65e94b1cea48b36e4271a.svg",
-    "main.9dd486c5.css.map": "/elements-table-react-app/static/css/main.9dd486c5.css.map",
-    "main.e7c9d7aa.js.map": "/elements-table-react-app/static/js/main.e7c9d7aa.js.map"
+    "main.5cdc0b66.css.map": "/elements-table-react-app/static/css/main.5cdc0b66.css.map",
+    "main.87b33d56.js.map": "/elements-table-react-app/static/js/main.87b33d56.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dd486c5.css",
-    "static/js/main.e7c9d7aa.js"
+    "static/css/main.5cdc0b66.css",
+    "static/js/main.87b33d56.js"
   ]
 }
