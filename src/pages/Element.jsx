@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
+import ModelViewer from '../components/ModelGLB';
+
 import elementsData from '../data/info-elements.json';
 
 import '../style/Element.css';
@@ -29,6 +31,7 @@ function ElementPage() {
   return (
     <div className="element-details">
       <h2>Détails de l'élément : {foundElement.name} ({foundElement.symbol})</h2>
+      <ModelViewer modelUrl={foundElement.bohr_model_3d} />
       <p><strong>Numéro atomique :</strong> {foundElement.number}</p>
       <p><strong>Masse atomique :</strong> {foundElement.atomic_mass}</p>
       <p><strong>Catégorie :</strong> {foundElement.category}</p>
