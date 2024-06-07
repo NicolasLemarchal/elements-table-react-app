@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
   padding: 10px;
+
+  background-color: #333;
 }
 
 .nav-logo {
@@ -11,10 +12,11 @@
 }
 
 .navbar-links {
-  list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
+
+  list-style: none;
 }
 
 .navbar-links li {
@@ -22,30 +24,31 @@
 }
 
 .navbar-links a {
-  color: white;
-  text-decoration: none;
   font-size: 1em;
+  text-decoration: none;
+  color: white;
 }
 
 .navbar-links a:hover {
   color: #ddd;
 }
 
-/* Style du bouton de retour en haut de la page */
 .arrow-up {
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
   bottom: 20px;
   right: 20px;
-  color: white;
-  border: none;
-  border-radius: 50%;
-  cursor: pointer;
   margin: 0;
   padding: 0;
+
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
   background-color: transparent;
+  color: white;
+
   transition: transform 0.1s ease-in-out;
 }
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../style/ElementGrid.css'
+import '../style/components/ElementGrid.css'
 
 function ElementGridComponent({ elements }) {
   return (

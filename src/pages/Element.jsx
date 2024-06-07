@@ -5,7 +5,7 @@ import ModelViewer from '../components/ModelGLB';
 
 import elementsData from '../data/info-elements.json';
 
-import '../style/Element.css';
+import '../style/pages/Element.css';
 
 const filteredData = elementsData.filter(obj => obj.hasOwnProperty('elements'));
 const elements = filteredData.map(obj => obj.elements).flat();

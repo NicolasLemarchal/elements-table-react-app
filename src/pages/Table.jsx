@@ -4,7 +4,7 @@ import ElementGrid from '../components/ElementGrid';
 
 import elementsData from '../data/elements.json';
 
-import '../style/Table.css';
+import '../style/pages/Table.css';
 
 function Table() {
   const filteredData = elementsData.filter(obj => obj.hasOwnProperty('elements'));

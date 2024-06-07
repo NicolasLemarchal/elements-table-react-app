@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import '../style/Navbar.css';
+import '../style/components/Navbar.css';
 
 import logo from '../images/react.png';
 import arrowIcon from '../images/arrow-up.svg';

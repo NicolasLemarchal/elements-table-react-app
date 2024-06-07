@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { FiMaximize } from 'react-icons/fi';
 
-import '../style/ModelGLB.css';
+import '../style/components/ModelGLB.css';
 
 function ModelViewer({ modelUrl }) {
   const canvasRef = useRef();

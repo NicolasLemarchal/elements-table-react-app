@@ -1,6 +1,6 @@
 import React from 'react';
 
-import '../style/About.css';
+import '../style/pages/About.css';
 
 import react from '../images/react.png';
 import electron from '../images/electron.png';
