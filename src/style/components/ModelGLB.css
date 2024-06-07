@@ -2,10 +2,6 @@
   position: relative;
 }
 
-canvas {
-  border: 1px solid black;
-}
-
 .fullscreen-button {
   display: flex;
   position: absolute;

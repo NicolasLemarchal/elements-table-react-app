@@ -1,4 +1,10 @@
-a {
+.grid-item {
   text-decoration: none;
   color: inherit;
+  transition: 100ms;
+  background-color: #101318;
+}
+
+.grid-item:hover {
+  scale: 1.5;
 }

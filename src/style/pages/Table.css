@@ -4,6 +4,7 @@
 
 .title {
   text-align: center;
+  color: #CCCCCC;
 }
 
 .grid-container {
@@ -22,10 +23,6 @@
   aspect-ratio: 1 / 1;
 
   border: 1px solid #ccc;
-}
-
-.separator {
-  height: 15px;
 }
 
 .hidden {

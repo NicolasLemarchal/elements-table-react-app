@@ -104,7 +104,7 @@ function ModelViewer({ modelUrl }) {
 
   return (
     <div ref={containerRef} className="model-container">
-      <canvas ref={canvasRef} className="canvas" />
+      <canvas ref={canvasRef} />
       <button className="fullscreen-button" onClick={toggleFullScreen}>
         <FiMaximize />
       </button>
