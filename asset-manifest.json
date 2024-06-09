@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/elements-table-react-app/static/css/main.47fae2d6.css",
-    "main.js": "/elements-table-react-app/static/js/main.54af532b.js",
+    "main.css": "/elements-table-react-app/static/css/main.f8aa9fa1.css",
+    "main.js": "/elements-table-react-app/static/js/main.62e53070.js",
     "static/media/electron.png": "/elements-table-react-app/static/media/electron.f03b0e1296f79309f35e.png",
+    "static/media/arrow-up.png": "/elements-table-react-app/static/media/arrow-up.7fc4e33a81da9d81e714.png",
     "index.html": "/elements-table-react-app/index.html",
-    "static/media/arrow-up.svg": "/elements-table-react-app/static/media/arrow-up.b952209bbdb65e94b1cea48b36e4271a.svg",
-    "main.47fae2d6.css.map": "/elements-table-react-app/static/css/main.47fae2d6.css.map",
-    "main.54af532b.js.map": "/elements-table-react-app/static/js/main.54af532b.js.map"
+    "main.f8aa9fa1.css.map": "/elements-table-react-app/static/css/main.f8aa9fa1.css.map",
+    "main.62e53070.js.map": "/elements-table-react-app/static/js/main.62e53070.js.map"
   },
   "entrypoints": [
-    "static/css/main.47fae2d6.css",
-    "static/js/main.54af532b.js"
+    "static/css/main.f8aa9fa1.css",
+    "static/js/main.62e53070.js"
   ]
 }
