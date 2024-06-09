@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
-import ModelViewer from '../components/ModelGLB';
+import Navbar from "../components/Navbar.jsx";
+import ModelViewer from '../components/ModelGLB.jsx';
 
 import elementsData from '../data/info-elements.json';
 
@@ -29,16 +30,19 @@ function ElementPage() {
   }
 
   return (
-    <div className="element-details">
-      <h2>Détails de l'élément : {foundElement.name} ({foundElement.symbol})</h2>
-      <ModelViewer modelUrl={foundElement.bohr_model_3d} />
-      <p><strong>Numéro atomique :</strong> {foundElement.number}</p>
-      <p><strong>Masse atomique :</strong> {foundElement.atomic_mass}</p>
-      <p><strong>Catégorie :</strong> {foundElement.category}</p>
-      <p><strong>Phase :</strong> {foundElement.phase}</p>
-      <p><strong>Apparence :</strong> {foundElement.appearance}</p>
-      <p><strong>Résumé :</strong> {foundElement.summary}</p>
-      <p><strong>Découvert par :</strong> {foundElement.discovered_by}</p>
+    <div>
+      <Navbar />
+      <div className="element-details">
+        <h2>Détails de l'élément : {foundElement.name} ({foundElement.symbol})</h2>
+        <ModelViewer modelUrl={foundElement.bohr_model_3d} />
+        <p><strong>Numéro atomique :</strong> {foundElement.number}</p>
+        <p><strong>Masse atomique :</strong> {foundElement.atomic_mass}</p>
+        <p><strong>Catégorie :</strong> {foundElement.category}</p>
+        <p><strong>Phase :</strong> {foundElement.phase}</p>
+        <p><strong>Apparence :</strong> {foundElement.appearance}</p>
+        <p><strong>Résumé :</strong> {foundElement.summary}</p>
+        <p><strong>Découvert par :</strong> {foundElement.discovered_by}</p>
+      </div>
     </div>
   );
 };

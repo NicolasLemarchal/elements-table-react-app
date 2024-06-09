@@ -16,9 +16,9 @@ function ModelViewer({ modelUrl }) {
     const container = containerRef.current;
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
-    camera.position.z = 0.5;
-    camera.position.y = 0.5;
-    camera.position.x = 0.5;
+    camera.position.z = 0.35;
+    camera.position.y = 0.35;
+    camera.position.x = 0.35;
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.5);
     scene.add(ambientLight);
     const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });

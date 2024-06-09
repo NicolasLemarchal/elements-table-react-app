@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import '../style/components/Navbar.css';
 
 import logo from '../images/react.png';
-import arrowIcon from '../images/arrow-up.svg';
+import arrowIcon from '../images/arrow-up.png';
 
 const Navbar = () => {
   const [showArrow, setShowArrow] = useState(false);
@@ -30,12 +31,16 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <a href="/">
+        <Link to={"/"}>
           <img src={logo} className="nav-logo reverse" alt="logo-react" />
-        </a>
+        </Link>
         <ul className="navbar-links">
-          <li><a href="/">Accueil</a></li>
-          <li><a href="/about">À Propos</a></li>
+          <li>
+          <Link to={"/"}>Accueil</Link>
+          </li>
+          <li>
+          <Link to={"/about"}>À Propos</Link>
+          </li>
         </ul>
       </nav>
       {showArrow && (
