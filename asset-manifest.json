@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/elements-table-react-app/static/css/main.e8ec7fc0.css",
-    "main.js": "/elements-table-react-app/static/js/main.1f370419.js",
+    "main.js": "/elements-table-react-app/static/js/main.988e5d0e.js",
     "static/media/electron.png": "/elements-table-react-app/static/media/electron.f03b0e1296f79309f35e.png",
     "static/media/arrow-up.png": "/elements-table-react-app/static/media/arrow-up.7fc4e33a81da9d81e714.png",
     "index.html": "/elements-table-react-app/index.html",
     "main.e8ec7fc0.css.map": "/elements-table-react-app/static/css/main.e8ec7fc0.css.map",
-    "main.1f370419.js.map": "/elements-table-react-app/static/js/main.1f370419.js.map"
+    "main.988e5d0e.js.map": "/elements-table-react-app/static/js/main.988e5d0e.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ec7fc0.css",
-    "static/js/main.1f370419.js"
+    "static/js/main.988e5d0e.js"
   ]
 }
